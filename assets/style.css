@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+#Highscores {
+    font-family: 'Orbitron', sans-serif;
+    width: 10%;
+    margin: 20px;
+}
+
+#wrapper {
+    border: 2px solid blueviolet;
+    border-style: dotted;
+    background-color: black;
+    border-radius: 5%;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#questionsDiv {
+    margin: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: blueviolet;
+    text-shadow: /* White glow */
+    0 0 7px rgb(255, 255, 255), 0 0 10px #fff, 0 0 21px #fff, 0 0 42px rgb(140, 0, 255), 0 0 82px rgb(140, 0, 255);
+}
+
+#timerStart {
+    background-color: blueviolet;
+    margin-left: 43%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+@media screen and (max-width: 786px) {
+    /* Resized content to fit 786px  */
+    body {
+        max-width: 786px;
+    }
+    /* Resized main-content to fit 786px  */
+    #wrapper {
+        position: relative;
+        left: 20%;
+    }
+    a {
+        margin-left: 20%;
+    }
+    #goBack {
+        position: relative;
+        left: 55%;
+    }
+    #clear {
+        position: relative;
+        right: 5%;
+    }
+}
+
+
+/* A Media Query max-width: 640px */
+
+@media screen and (max-width: 640px) {
+    /* Resized content to fit 640px  */
+    body {
+        min-width: 640px;
+    }
+    /* Resized main-content to fit 640px  */
+    #wrapper {
+        position: relative;
+        left: 10%;
+    }
+    a {
+        margin-left: 10%;
+    }
+}

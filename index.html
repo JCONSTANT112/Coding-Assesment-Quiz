@@ -13,12 +13,28 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!--Link to saved highscore-->
-    <a href="highScores.html">View Highscores</a>
+    <div id="Highscores">
+        <a href="highScores.html">View Highscores</a>
+    </div>
+    <!--wrapper-->
     <div id="wrapper">
+        <!-- timer div-->
+        <div id="currentTime"></div>
+        <!-- quiz content div -->
+        <div id="questionsDiv">
+            <h1>Coding Assessment Quiz</h1>
+            <p>Do you want to play a game? of course you do! Test your coding knowledge by answering the following questions. You have 90 seconds and every wrong answer will give you less time and you have to do 1 push up &#128540; Goodluck!</p>
+            <ul id="choicesUl"></ul>
+            <!-- Buttons -->
+            <button id="timerStart">Begin</button>
+        </div>
 
 
     </div>
