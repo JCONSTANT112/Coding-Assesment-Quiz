@@ -10,21 +10,25 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 * [GitHub Repository](https://github.com/JCONSTANT112/Coding-Assessment-Quiz)
 * [Deployed GitHub IO](https://jconstant112.github.io/Coding-Assessment-Quiz/)
 
-### Prerequisites
+# Project screenshot
+!["exampleimg1"](./assets/images/Screenshot-Quiz-Game.png)
+!["exampleimg2"](./assets/images/Screenshot2-Quiz-Game.png)
+
+# Prerequisites
 
 To install this application, you will need a text editor. such as Visual Studio Code. 
 
-### Installing
+# Installing
 
 To install this code, download the zip file, or use GitHub's guidelines to clone the repository. Then simply open in preferred browser.
 
 
-### Summary
+# Summary
 * HTML and CSS and Javascript documents create a quiz with multiple choice questions with coding related trivia
 * This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
 * This project utilizes the use of appending HTML pages
 
-### This project has the following features: 
+# This project has the following features: 
     * A Start Quiz button 
     * This starts a timer for the user
     * Then the user is presented with multiple choice questions.
@@ -36,5 +40,5 @@ To install this code, download the zip file, or use GitHub's guidelines to clone
  Jacob Constantinidis 
 
 
-## Acknowledgements
+# Acknowledgements
 Adelaide University full stack flex bootcamp for providing project parameters and guides.
