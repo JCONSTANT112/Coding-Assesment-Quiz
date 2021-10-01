@@ -208,7 +208,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // directs to highscore page
-            window.location.replace("./highScores.html");
+            window.location.replace("./highscores.html");
         }
     });
 
